@@ -1,14 +1,9 @@
-import React from 'react';
+import React from 'react'
+import { ApolloClient, ApolloProvider, createHttpLink, DefaultOptions, gql, InMemoryCache } from '@apollo/client'
+import { setContext } from '@apollo/client/link/context'
+import { View } from 'react-native'
+
 import config from './src/config';
-import {
-  ApolloClient,
-  createHttpLink,
-  DefaultOptions,
-  gql,
-  InMemoryCache,
-} from '@apollo/client';
-import {setContext} from '@apollo/client/link/context';
-import {View} from 'react-native';
 
 const defaultOptions: DefaultOptions = {
   watchQuery: {
@@ -19,26 +14,26 @@ const defaultOptions: DefaultOptions = {
     fetchPolicy: 'no-cache',
     errorPolicy: 'all',
   },
-};
+}
 
 const App = () => {
   const httpLink = createHttpLink({
     uri: config.apiBaseUrl,
-  });
+  })
 
-  const authLink = setContext((_, {headers}) => {
+  const authLink = setContext((_, { headers }) => {
     return {
       headers: {
         ...headers,
       },
-    };
-  });
+    }
+  })
 
   const client = new ApolloClient({
     link: authLink.concat(httpLink),
     cache: new InMemoryCache(),
     defaultOptions,
-  });
+  })
 
   client
     .query({
@@ -50,9 +45,13 @@ const App = () => {
         }
       `,
     })
-    .then(result => console.log(result));
+    .then(result => console.log(result))
 
-  return <View />;
-};
+  return (
+    <ApolloProvider client={client}>
+      <View />
+    </ApolloProvider>
+  )
+}
 
-export default App;
+export default App
