@@ -6,21 +6,23 @@ module.exports = {
     [
       'module-resolver',
       {
-        root: ['./'],
+        root: ['./src'],
         alias: {
-          '^~/(.+)': './src/\\1',
+          '~': './src',
         },
         extensions: [
-          '.ios.js',
-          '.android.js',
-          '.js',
-          '.jsx',
-          '.json',
-          '.tsx',
+          '.ios.ts',
+          '.android.ts',
           '.ts',
-          '.native.js',
+          '.ios.tsx',
+          '.android.tsx',
+          '.tsx',
+          '.jsx',
+          '.js',
+          '.json',
         ],
       },
     ],
+    '@babel/plugin-transform-runtime',
   ],
 };

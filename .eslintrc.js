@@ -22,6 +22,7 @@ module.exports = {
       {blankLine: 'always', prev: '*', next: 'function'},
     ],
     'spaced-comment': ['error', 'always'],
+    'react/jsx-filename-extension': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -66,7 +67,7 @@ module.exports = {
     },
     'import/resolver': {
       alias: {
-        map: [['~', path.resolve(__dirname, './src')]],
+        map: [['~', './src']],
         extensions: [
           '.js',
           '.ios.js',
@@ -80,17 +81,14 @@ module.exports = {
           '.json',
         ],
       },
-      node: {
-        extensions: [
-          '.js',
-          '.jsx',
-          '.ios.js',
-          '.android.js',
-          '.ts',
-          '.tsx',
-          '.json',
-        ],
-      },
     },
   },
+  overrides: [
+    {
+      files: ['**/*.ts', '**/*.tsx'],
+      parserOptions: {
+        project: 'packages/mobile/tsconfig.json',
+      },
+    },
+  ],
 };
