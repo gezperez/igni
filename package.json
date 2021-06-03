@@ -75,7 +75,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn prettier",
+      "pre-commit": "yarn tsc -b -f && yarn prettier",
       "pre-push": "yarn tsc -b -f && yarn lint --quiet"
     }
   }

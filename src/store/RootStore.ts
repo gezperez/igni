@@ -2,9 +2,9 @@ import { AppStore } from './AppStore'
 import { AuthStore } from './AuthStore'
 
 export class RootStore {
-  appStore
+  appStore: any
 
-  authStore
+  authStore: any
 
   constructor() {
     this.appStore = new AppStore()
