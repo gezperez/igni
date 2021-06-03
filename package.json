@@ -12,8 +12,8 @@
     "start": "react-native start",
     "reverse": "adb reverse tcp:8081 tcp:8081; adb reverse tcp:9090 tcp:9090;",
     "test": "jest",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx",
-    "lint-staged": "eslint --ext .js,.jsx,.ts,.tsx"
+    "lint": "cd ../.. eslint --ext .tsx --ext .ts",
+    "prettier": "prettier --write src/ && yarn lint"
   },
   "dependencies": {
     "@apollo/client": "^3.3.19",
@@ -75,7 +75,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint-staged",
+      "pre-commit": "yarn prettier",
       "pre-push": "yarn tsc -b -f && yarn lint --quiet"
     }
   }

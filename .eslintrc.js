@@ -8,6 +8,7 @@ module.exports = {
   },
   parser: 'babel-eslint',
   rules: {
+    'global-require': 'off',
     'no-console': 'error',
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',

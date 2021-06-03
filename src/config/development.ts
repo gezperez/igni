@@ -1,5 +1,5 @@
 const config = {
   apiBaseUrl: 'https://api',
-};
+}
 
-export default config;
+export default config
