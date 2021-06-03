@@ -1,4 +1,5 @@
 import React from 'react';
+import {View} from 'react-native';
 import {
   ApolloClient,
   ApolloProvider,
@@ -8,7 +9,6 @@ import {
   InMemoryCache,
 } from '@apollo/client';
 import {setContext} from '@apollo/client/link/context';
-import {View} from 'react-native';
 
 import config from '~/config';
 
@@ -27,6 +27,8 @@ const App = () => {
   const httpLink = createHttpLink({
     uri: config.apiBaseUrl,
   });
+
+  console.log('aca');
 
   const authLink = setContext((_, {headers}) => {
     return {
