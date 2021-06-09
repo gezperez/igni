@@ -1,22 +1,17 @@
 import React from 'react'
-import { View } from 'react-native'
-import { ApolloClient, ApolloProvider, createHttpLink, DefaultOptions, gql, InMemoryCache } from '@apollo/client'
+import { ApolloClient, ApolloProvider, createHttpLink, DefaultOptions, from, InMemoryCache } from '@apollo/client'
 import { setContext } from '@apollo/client/link/context'
+import { observer } from 'mobx-react-lite'
 
 import config from '~/config'
+import Navigator from '~/navigation/Navigator'
+import { useStore } from './store'
 
-const defaultOptions: DefaultOptions = {
-  watchQuery: {
-    fetchPolicy: 'no-cache',
-    errorPolicy: 'ignore',
-  },
-  query: {
-    fetchPolicy: 'no-cache',
-    errorPolicy: 'all',
-  },
-}
+const defaultOptions: DefaultOptions = {}
 
 const App = () => {
+  const { authStore } = useStore()
+
   const httpLink = createHttpLink({
     uri: config.apiBaseUrl,
   })
@@ -25,33 +20,22 @@ const App = () => {
     return {
       headers: {
         ...headers,
+        authorization: authStore.accessToken ? `Bearer ${authStore.accessToken}` : '',
       },
     }
   })
 
   const client = new ApolloClient({
-    link: authLink.concat(httpLink),
+    link: from([authLink, httpLink]),
     cache: new InMemoryCache(),
     defaultOptions,
   })
 
-  client
-    .query({
-      query: gql`
-        query books {
-          books {
-            title
-          }
-        }
-      `,
-    })
-    .then(() => {})
-
   return (
     <ApolloProvider client={client}>
-      <View />
+      <Navigator />
     </ApolloProvider>
   )
 }
 
-export default App
+export default observer(App)

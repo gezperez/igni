@@ -12,10 +12,11 @@
     "jsx": "react-native",
     "sourceMap": true,
     "noImplicitReturns": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "lib": ["es7"],
     "baseUrl": ".",
     "outDir": "dist",
+    "resolveJsonModule": true,
     "paths": {
       "~/*": ["./src/*"]
     },

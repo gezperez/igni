@@ -15,7 +15,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/jsx-wrap-multilines': 'off',
     'react/prefer-stateless-function': 'off',
-    'react/prop-types': 'error',
+    'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'error',
     'react-native/no-unused-styles': 'error',
     'react-native/no-inline-styles': 'error',
@@ -35,6 +35,7 @@ module.exports = {
     'operator-linebreak': 'off',
     'one-var-declaration-per-line': 'off',
     'no-use-before-define': 'off',
+    'react/jsx-one-expression-per-line': 'off',
     'prefer-destructuring': ['off', { object: true, array: false }],
     'padding-line-between-statements': [
       'error',
@@ -102,8 +103,26 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
+      extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'prettier/@typescript-eslint',
+        'prettier/react',
+      ],
+      parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: 'packages/mobile/tsconfig.json',
+        ecmaFeatures: { jsx: true },
+        ecmaVersion: 2018,
+        sourceType: 'module',
+      },
+      plugins: ['@typescript-eslint'],
+      rules: {
+        '@typescript-eslint/unbound-method': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': ['warn'],
       },
     },
   ],

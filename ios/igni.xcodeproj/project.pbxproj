@@ -8,12 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* igniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* igniTests.m */; };
-		0DBF670B7D881511751E3D3F /* libPods-igni-igniTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D340C64585C7E880422406 /* libPods-igni-igniTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4C64283C33615E5B7E0C5078 /* libPods-igni.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F885B437A9AB9C765D9F131 /* libPods-igni.a */; };
+		6F1B383D266F0A5000EF597F /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382B266F0A5000EF597F /* Montserrat-BoldItalic.ttf */; };
+		6F1B383E266F0A5000EF597F /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382B266F0A5000EF597F /* Montserrat-BoldItalic.ttf */; };
+		6F1B383F266F0A5000EF597F /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382C266F0A5000EF597F /* Montserrat-MediumItalic.ttf */; };
+		6F1B3840266F0A5000EF597F /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382C266F0A5000EF597F /* Montserrat-MediumItalic.ttf */; };
+		6F1B3841266F0A5000EF597F /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382D266F0A5000EF597F /* Montserrat-ExtraBold.ttf */; };
+		6F1B3842266F0A5000EF597F /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382D266F0A5000EF597F /* Montserrat-ExtraBold.ttf */; };
+		6F1B3843266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382E266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf */; };
+		6F1B3844266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382E266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf */; };
+		6F1B3845266F0A5000EF597F /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382F266F0A5000EF597F /* Montserrat-LightItalic.ttf */; };
+		6F1B3846266F0A5000EF597F /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B382F266F0A5000EF597F /* Montserrat-LightItalic.ttf */; };
+		6F1B3847266F0A5000EF597F /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3830266F0A5000EF597F /* Montserrat-Thin.ttf */; };
+		6F1B3848266F0A5000EF597F /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3830266F0A5000EF597F /* Montserrat-Thin.ttf */; };
+		6F1B3849266F0A5000EF597F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3831266F0A5000EF597F /* Montserrat-Regular.ttf */; };
+		6F1B384A266F0A5000EF597F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3831266F0A5000EF597F /* Montserrat-Regular.ttf */; };
+		6F1B384B266F0A5000EF597F /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3832266F0A5000EF597F /* Montserrat-Medium.ttf */; };
+		6F1B384C266F0A5000EF597F /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3832266F0A5000EF597F /* Montserrat-Medium.ttf */; };
+		6F1B384D266F0A5000EF597F /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3833266F0A5000EF597F /* Montserrat-Light.ttf */; };
+		6F1B384E266F0A5000EF597F /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3833266F0A5000EF597F /* Montserrat-Light.ttf */; };
+		6F1B384F266F0A5000EF597F /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3834266F0A5000EF597F /* Montserrat-Black.ttf */; };
+		6F1B3850266F0A5000EF597F /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3834266F0A5000EF597F /* Montserrat-Black.ttf */; };
+		6F1B3851266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3835266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf */; };
+		6F1B3852266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3835266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf */; };
+		6F1B3853266F0A5000EF597F /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3836266F0A5000EF597F /* Montserrat-Bold.ttf */; };
+		6F1B3854266F0A5000EF597F /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3836266F0A5000EF597F /* Montserrat-Bold.ttf */; };
+		6F1B3855266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3837266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf */; };
+		6F1B3856266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3837266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf */; };
+		6F1B3857266F0A5000EF597F /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3838266F0A5000EF597F /* Montserrat-BlackItalic.ttf */; };
+		6F1B3858266F0A5000EF597F /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3838266F0A5000EF597F /* Montserrat-BlackItalic.ttf */; };
+		6F1B3859266F0A5000EF597F /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3839266F0A5000EF597F /* Montserrat-ExtraLight.ttf */; };
+		6F1B385A266F0A5000EF597F /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B3839266F0A5000EF597F /* Montserrat-ExtraLight.ttf */; };
+		6F1B385B266F0A5000EF597F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B383A266F0A5000EF597F /* Montserrat-SemiBold.ttf */; };
+		6F1B385C266F0A5000EF597F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B383A266F0A5000EF597F /* Montserrat-SemiBold.ttf */; };
+		6F1B385D266F0A5000EF597F /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B383B266F0A5000EF597F /* Montserrat-ThinItalic.ttf */; };
+		6F1B385E266F0A5000EF597F /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B383B266F0A5000EF597F /* Montserrat-ThinItalic.ttf */; };
+		6F1B385F266F0A5000EF597F /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B383C266F0A5000EF597F /* Montserrat-Italic.ttf */; };
+		6F1B3860266F0A5000EF597F /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B383C266F0A5000EF597F /* Montserrat-Italic.ttf */; };
+		6FEC6B35266EFBF60028E281 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC6B34266EFBF60028E281 /* File.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92F84DB0AE321EB6807BF693 /* libPods-igni-igniTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F905D3A350C6B7A0553B9DA /* libPods-igni-igniTests.a */; };
+		C89B4B1F8D80E6FD90119A95 /* libPods-igni.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E46BEA62A5D71E25E1F44C31 /* libPods-igni.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +67,56 @@
 		00E356EE1AD99517003FC87E /* igniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = igniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* igniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = igniTests.m; sourceTree = "<group>"; };
+		0679846DA4B44CDB875B6390 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		079831FE8B445268781003DE /* Pods-igni-igniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni-igniTests.release.xcconfig"; path = "Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests.release.xcconfig"; sourceTree = "<group>"; };
+		096A077CA0164DE6BC80DEB0 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* igni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = igni/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = igni/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = igni/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = igni/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = igni/main.m; sourceTree = "<group>"; };
-		2F885B437A9AB9C765D9F131 /* libPods-igni.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-igni.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61D340C64585C7E880422406 /* libPods-igni-igniTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-igni-igniTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		654E4564EC7F1CF78EEE334C /* Pods-igni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni.release.xcconfig"; path = "Target Support Files/Pods-igni/Pods-igni.release.xcconfig"; sourceTree = "<group>"; };
+		1A660A5D977D40B3AD556B56 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		1D397A9D9303490494B75DBF /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		347A41C968C14AB0BC2FE035 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		3C86B3BA25E5482BADB4C037 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		498B6AD4E49E454F96F415B2 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		49CF41B7602E469EAFDCBB00 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		5F905D3A350C6B7A0553B9DA /* libPods-igni-igniTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-igni-igniTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C9BDDDC664952BCB8DE82 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		6F1B382B266F0A5000EF597F /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6F1B382C266F0A5000EF597F /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6F1B382D266F0A5000EF597F /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6F1B382E266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6F1B382F266F0A5000EF597F /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		6F1B3830266F0A5000EF597F /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		6F1B3831266F0A5000EF597F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		6F1B3832266F0A5000EF597F /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		6F1B3833266F0A5000EF597F /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		6F1B3834266F0A5000EF597F /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		6F1B3835266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6F1B3836266F0A5000EF597F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		6F1B3837266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6F1B3838266F0A5000EF597F /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6F1B3839266F0A5000EF597F /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6F1B383A266F0A5000EF597F /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		6F1B383B266F0A5000EF597F /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6F1B383C266F0A5000EF597F /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		6F46B9FE55B924F9009CBBA0 /* Pods-igni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni.release.xcconfig"; path = "Target Support Files/Pods-igni/Pods-igni.release.xcconfig"; sourceTree = "<group>"; };
+		6FEC6B33266EFBF60028E281 /* igni-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "igni-Bridging-Header.h"; sourceTree = "<group>"; };
+		6FEC6B34266EFBF60028E281 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		7230C0CD07454574D5012A03 /* Pods-igni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni.debug.xcconfig"; path = "Target Support Files/Pods-igni/Pods-igni.debug.xcconfig"; sourceTree = "<group>"; };
+		808910E44CE085E00B309D1E /* Pods-igni-igniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni-igniTests.debug.xcconfig"; path = "Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = igni/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C240471727FFAB97C65031FF /* Pods-igni-igniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni-igniTests.release.xcconfig"; path = "Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests.release.xcconfig"; sourceTree = "<group>"; };
-		CA54A546C0E79B214DC87102 /* Pods-igni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni.debug.xcconfig"; path = "Target Support Files/Pods-igni/Pods-igni.debug.xcconfig"; sourceTree = "<group>"; };
-		CB322EBBDAA2BC6588AAA70A /* Pods-igni-igniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igni-igniTests.debug.xcconfig"; path = "Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9681CDCA02EE4110B2264715 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		9B68BB737D774CC2A0F5AF43 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		A49DA0F87B4E4575B8B0D0FE /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		DB5D3FDDB45148EF87F3B65B /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		DE8CA38062BC4552BA272AA3 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		E1AC86A1B1414AC8992B3525 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		E46BEA62A5D71E25E1F44C31 /* libPods-igni.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-igni.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF844DD563B44B48A4258947 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DBF670B7D881511751E3D3F /* libPods-igni-igniTests.a in Frameworks */,
+				92F84DB0AE321EB6807BF693 /* libPods-igni-igniTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C64283C33615E5B7E0C5078 /* libPods-igni.a in Frameworks */,
+				C89B4B1F8D80E6FD90119A95 /* libPods-igni.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +169,53 @@
 			name = igni;
 			sourceTree = "<group>";
 		};
+		1CB1E873BFF04CDB955B483D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				347A41C968C14AB0BC2FE035 /* AntDesign.ttf */,
+				498B6AD4E49E454F96F415B2 /* Entypo.ttf */,
+				3C86B3BA25E5482BADB4C037 /* EvilIcons.ttf */,
+				DB5D3FDDB45148EF87F3B65B /* Feather.ttf */,
+				6F1B3834266F0A5000EF597F /* Montserrat-Black.ttf */,
+				6F1B3838266F0A5000EF597F /* Montserrat-BlackItalic.ttf */,
+				6F1B3836266F0A5000EF597F /* Montserrat-Bold.ttf */,
+				6F1B382B266F0A5000EF597F /* Montserrat-BoldItalic.ttf */,
+				6F1B382D266F0A5000EF597F /* Montserrat-ExtraBold.ttf */,
+				6F1B382E266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf */,
+				6F1B3839266F0A5000EF597F /* Montserrat-ExtraLight.ttf */,
+				6F1B3835266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf */,
+				6F1B383C266F0A5000EF597F /* Montserrat-Italic.ttf */,
+				6F1B3833266F0A5000EF597F /* Montserrat-Light.ttf */,
+				6F1B382F266F0A5000EF597F /* Montserrat-LightItalic.ttf */,
+				6F1B3832266F0A5000EF597F /* Montserrat-Medium.ttf */,
+				6F1B382C266F0A5000EF597F /* Montserrat-MediumItalic.ttf */,
+				6F1B3831266F0A5000EF597F /* Montserrat-Regular.ttf */,
+				6F1B383A266F0A5000EF597F /* Montserrat-SemiBold.ttf */,
+				6F1B3837266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf */,
+				6F1B3830266F0A5000EF597F /* Montserrat-Thin.ttf */,
+				6F1B383B266F0A5000EF597F /* Montserrat-ThinItalic.ttf */,
+				9681CDCA02EE4110B2264715 /* FontAwesome.ttf */,
+				0679846DA4B44CDB875B6390 /* FontAwesome5_Brands.ttf */,
+				1A660A5D977D40B3AD556B56 /* FontAwesome5_Regular.ttf */,
+				9B68BB737D774CC2A0F5AF43 /* FontAwesome5_Solid.ttf */,
+				A49DA0F87B4E4575B8B0D0FE /* Fontisto.ttf */,
+				630C9BDDDC664952BCB8DE82 /* Foundation.ttf */,
+				1D397A9D9303490494B75DBF /* Ionicons.ttf */,
+				096A077CA0164DE6BC80DEB0 /* MaterialCommunityIcons.ttf */,
+				EF844DD563B44B48A4258947 /* MaterialIcons.ttf */,
+				DE8CA38062BC4552BA272AA3 /* Octicons.ttf */,
+				E1AC86A1B1414AC8992B3525 /* SimpleLineIcons.ttf */,
+				49CF41B7602E469EAFDCBB00 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2F885B437A9AB9C765D9F131 /* libPods-igni.a */,
-				61D340C64585C7E880422406 /* libPods-igni-igniTests.a */,
+				E46BEA62A5D71E25E1F44C31 /* libPods-igni.a */,
+				5F905D3A350C6B7A0553B9DA /* libPods-igni-igniTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +230,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6FEC6B34266EFBF60028E281 /* File.swift */,
 				13B07FAE1A68108700A75B9A /* igni */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* igniTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				FDA647A7068E6F1D0DE2D12D /* Pods */,
+				CA858D967EAFCB20A664A4FA /* Pods */,
+				1CB1E873BFF04CDB955B483D /* Resources */,
+				6FEC6B33266EFBF60028E281 /* igni-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,13 +254,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDA647A7068E6F1D0DE2D12D /* Pods */ = {
+		CA858D967EAFCB20A664A4FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA54A546C0E79B214DC87102 /* Pods-igni.debug.xcconfig */,
-				654E4564EC7F1CF78EEE334C /* Pods-igni.release.xcconfig */,
-				CB322EBBDAA2BC6588AAA70A /* Pods-igni-igniTests.debug.xcconfig */,
-				C240471727FFAB97C65031FF /* Pods-igni-igniTests.release.xcconfig */,
+				7230C0CD07454574D5012A03 /* Pods-igni.debug.xcconfig */,
+				6F46B9FE55B924F9009CBBA0 /* Pods-igni.release.xcconfig */,
+				808910E44CE085E00B309D1E /* Pods-igni-igniTests.debug.xcconfig */,
+				079831FE8B445268781003DE /* Pods-igni-igniTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "igniTests" */;
 			buildPhases = (
-				A21C39BD23F6328645AD00FD /* [CP] Check Pods Manifest.lock */,
+				B5128055381037E01614AC6A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				6F8789C3BE3398BFF1FB1142 /* [CP] Embed Pods Frameworks */,
-				33A6FB1C20630A24CC0BB525 /* [CP] Copy Pods Resources */,
+				413C9FE4C08010F5BBD22D63 /* [CP] Embed Pods Frameworks */,
+				506F20D55A1C166BB779C55C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +293,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "igni" */;
 			buildPhases = (
-				B51809187C18AC96D76D0A6D /* [CP] Check Pods Manifest.lock */,
+				8B3114AE98D2B6A50B53C89D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				760E48662147EECB0675C92F /* [CP] Embed Pods Frameworks */,
-				75D2F87F78B67CBE92CBA6FF /* [CP] Copy Pods Resources */,
+				D1A516D4DA3D38B2BC622902 /* [CP] Embed Pods Frameworks */,
+				4E28AB90F2F2D1E7138689C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +324,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -235,6 +352,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1B3840266F0A5000EF597F /* Montserrat-MediumItalic.ttf in Resources */,
+				6F1B3858266F0A5000EF597F /* Montserrat-BlackItalic.ttf in Resources */,
+				6F1B3850266F0A5000EF597F /* Montserrat-Black.ttf in Resources */,
+				6F1B3852266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				6F1B385A266F0A5000EF597F /* Montserrat-ExtraLight.ttf in Resources */,
+				6F1B3844266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				6F1B384A266F0A5000EF597F /* Montserrat-Regular.ttf in Resources */,
+				6F1B384E266F0A5000EF597F /* Montserrat-Light.ttf in Resources */,
+				6F1B3856266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				6F1B385E266F0A5000EF597F /* Montserrat-ThinItalic.ttf in Resources */,
+				6F1B3842266F0A5000EF597F /* Montserrat-ExtraBold.ttf in Resources */,
+				6F1B3846266F0A5000EF597F /* Montserrat-LightItalic.ttf in Resources */,
+				6F1B3854266F0A5000EF597F /* Montserrat-Bold.ttf in Resources */,
+				6F1B3848266F0A5000EF597F /* Montserrat-Thin.ttf in Resources */,
+				6F1B384C266F0A5000EF597F /* Montserrat-Medium.ttf in Resources */,
+				6F1B3860266F0A5000EF597F /* Montserrat-Italic.ttf in Resources */,
+				6F1B385C266F0A5000EF597F /* Montserrat-SemiBold.ttf in Resources */,
+				6F1B383E266F0A5000EF597F /* Montserrat-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +377,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1B3849266F0A5000EF597F /* Montserrat-Regular.ttf in Resources */,
+				6F1B3859266F0A5000EF597F /* Montserrat-ExtraLight.ttf in Resources */,
+				6F1B3841266F0A5000EF597F /* Montserrat-ExtraBold.ttf in Resources */,
+				6F1B3851266F0A5000EF597F /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				6F1B3855266F0A5000EF597F /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				6F1B3845266F0A5000EF597F /* Montserrat-LightItalic.ttf in Resources */,
+				6F1B385B266F0A5000EF597F /* Montserrat-SemiBold.ttf in Resources */,
+				6F1B3857266F0A5000EF597F /* Montserrat-BlackItalic.ttf in Resources */,
+				6F1B383D266F0A5000EF597F /* Montserrat-BoldItalic.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				6F1B385D266F0A5000EF597F /* Montserrat-ThinItalic.ttf in Resources */,
+				6F1B3853266F0A5000EF597F /* Montserrat-Bold.ttf in Resources */,
+				6F1B384F266F0A5000EF597F /* Montserrat-Black.ttf in Resources */,
+				6F1B3843266F0A5000EF597F /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				6F1B384D266F0A5000EF597F /* Montserrat-Light.ttf in Resources */,
+				6F1B385F266F0A5000EF597F /* Montserrat-Italic.ttf in Resources */,
+				6F1B384B266F0A5000EF597F /* Montserrat-Medium.ttf in Resources */,
+				6F1B383F266F0A5000EF597F /* Montserrat-MediumItalic.ttf in Resources */,
+				6F1B3847266F0A5000EF597F /* Montserrat-Thin.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,24 +417,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		33A6FB1C20630A24CC0BB525 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6F8789C3BE3398BFF1FB1142 /* [CP] Embed Pods Frameworks */ = {
+		413C9FE4C08010F5BBD22D63 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,7 +434,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		75D2F87F78B67CBE92CBA6FF /* [CP] Copy Pods Resources */ = {
+		4E28AB90F2F2D1E7138689C3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,24 +451,46 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		760E48662147EECB0675C92F /* [CP] Embed Pods Frameworks */ = {
+		506F20D55A1C166BB779C55C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-igni-igniTests/Pods-igni-igniTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A21C39BD23F6328645AD00FD /* [CP] Check Pods Manifest.lock */ = {
+		8B3114AE98D2B6A50B53C89D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-igni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5128055381037E01614AC6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,26 +512,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B51809187C18AC96D76D0A6D /* [CP] Check Pods Manifest.lock */ = {
+		D1A516D4DA3D38B2BC622902 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-igni-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-igni/Pods-igni-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -411,6 +564,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				6FEC6B35266EFBF60028E281 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +582,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB322EBBDAA2BC6588AAA70A /* Pods-igni-igniTests.debug.xcconfig */;
+			baseConfigurationReference = 808910E44CE085E00B309D1E /* Pods-igni-igniTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -455,8 +610,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C240471727FFAB97C65031FF /* Pods-igni-igniTests.release.xcconfig */;
+			baseConfigurationReference = 079831FE8B445268781003DE /* Pods-igni-igniTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = igniTests/Info.plist;
@@ -479,13 +635,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA54A546C0E79B214DC87102 /* Pods-igni.debug.xcconfig */;
+			baseConfigurationReference = 7230C0CD07454574D5012A03 /* Pods-igni.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = igni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,6 +654,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = igni;
+				SWIFT_OBJC_BRIDGING_HEADER = "igni-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +663,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654E4564EC7F1CF78EEE334C /* Pods-igni.release.xcconfig */;
+			baseConfigurationReference = 6F46B9FE55B924F9009CBBA0 /* Pods-igni.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = igni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,6 +681,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = igni;
+				SWIFT_OBJC_BRIDGING_HEADER = "igni-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

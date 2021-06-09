@@ -1,0 +1,27 @@
+enum Color {
+  TRANSPARENT = 'transparent',
+  PRIMARY = '#FF964F',
+  SECONDARY = '#722FF1',
+  SECONDARY_LIGHT = '#AA82F7',
+  PRIMARY_GRADIENT_START = '#FF964F',
+  PRIMARY_GRADIENT_END = '#FF4C6E',
+  SECONDARY_GRADIENT_START = '#B166CF',
+  SECONDARY_GRADIENT_END = '#332CAC',
+  WHITE = '#FFFFFF',
+  GRAY_10 = 'hsl(0, 0%, 96%)',
+  GRAY_20 = 'hsl(0, 0%, 94%)',
+  GRAY_30 = 'hsl(0, 0%, 84%)',
+  GRAY_50 = 'hsl(0, 0%, 65%)',
+  GRAY_60 = 'hsl(0, 0%, 53%)',
+  GRAY_70 = 'hsl(0, 0%, 39%)',
+  GRAY_80 = 'hsl(0, 0%, 30%)',
+  GRAY_90 = 'hsl(0, 0%, 20%)',
+  BLACK = '#000000',
+  OVERLAY = 'rgba(28, 6, 67, .6)',
+  OVERLAY_OPAQUE = '#584873',
+  DANGER = '#FB7C80',
+  FOLD = 'rgba(0, 0, 0, .05)',
+  DIVIDER = '#EEE3',
+}
+
+export default Color
